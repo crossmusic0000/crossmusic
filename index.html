@@ -1,0 +1,49 @@
+<?php?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/icon.png">
+    <title>Crossmusic</title>
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            margin: 0;
+        }
+        #left {
+            width: 20%;
+            height: 100%;
+            background-color: black;
+            float: left;
+        }
+        #top {
+            width: 80%;
+            height: 100%;
+            background-color: rgb(35, 35, 35);
+            float: left;
+        }
+
+        @media screen and (max-width: 470px) {
+            #left {
+            width: 100%;
+            height: 10%;
+            background-color: black;
+            }
+            #top {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(35, 35, 35);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="left"></div>
+    <div id="top">
+    </div>
+</body>
+</html>
